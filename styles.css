@@ -36,7 +36,7 @@ body {
   border-color: transparent;
   width: 25px;
   border-radius: 50%;
-  background-image: url(menu-icon.png);
+  background-image: url(/images/menu-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -52,6 +52,7 @@ body {
 .logo img {
   width: 90px;
   padding-left: 10px;
+  cursor: pointer;
 }
 .search-bar {
   width: 700px;
@@ -80,7 +81,7 @@ body {
   width: 70px;
 
   margin-left: -40px;
-  background-image: url(/find-icon.svg);
+  background-image: url(/images/find-icon.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -94,7 +95,7 @@ body {
 .search-bar .btn-mic {
   width: 30px;
   background-color: transparent;
-  background-image: url(microphone.svg);
+  background-image: url(/images/microphone.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -110,7 +111,7 @@ body {
 }
 
 .camera {
-  background-image: url(video-camera.svg);
+  background-image: url(/images/video-camera.svg);
   width: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -120,7 +121,7 @@ body {
 }
 
 .dots {
-  background-image: url(dots-menu.svg);
+  background-image: url(/images/dots-menu.svg);
   width: 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -130,7 +131,7 @@ body {
 }
 
 .notification {
-  background-image: url(notification.svg);
+  background-image: url(/images/notification.svg);
   width: 40px;
   background-repeat: no-repeat;
   background-position: center;
