@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  border: solid aqua 4px;
+  /* border: solid aqua 4px; */
   height: 600px;
   width: 100%;
   display: flex;
@@ -40,6 +40,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
+  outline: none;
 }
 .logo {
   /* border: solid blue 3px; */
