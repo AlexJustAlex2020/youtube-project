@@ -42,7 +42,7 @@ body {
   border-color: transparent;
   width: 25px;
   border-radius: 50%;
-  background-image: url(menu-icon.png);
+  background-image: url(/menu-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
