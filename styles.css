@@ -1,12 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
 body {
   background-color: white;
-  display: flex;
-  font-size: 10px;
+  /* display: flex; */
+}
+
+.pointer {
+  cursor: pointer;
+  outline: none;
 }
 
 .container {
@@ -14,10 +19,12 @@ body {
   height: 600px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
+/* MENU BAR */
+
 .menu-bar {
-  border: solid white 3px;
   width: 100%;
   height: 35px;
   display: inline-flex;
@@ -26,7 +33,6 @@ body {
 
 .menu-icon {
   justify-content: center;
-  /* border: solid red 3px; */
   width: 50px;
   display: flex;
   align-items: center;
@@ -43,7 +49,6 @@ body {
   outline: none;
 }
 .logo {
-  /* border: solid blue 3px; */
   width: 300px;
   display: flex;
   align-items: center;
@@ -102,12 +107,13 @@ body {
   border-radius: 50%;
   outline: none;
   border-color: transparent;
+  opacity: 0.6;
 }
 .icons {
-  /* border: solid orangered 3px; */
   width: 300px;
   display: flex;
   justify-content: flex-end;
+  opacity: 0.6;
 }
 
 .camera {
@@ -149,4 +155,167 @@ body {
   background-color: rgb(180, 13, 180);
   color: white;
   border-color: transparent;
+}
+
+/* CONTAINER VIDEO AND SUGGESTIONS */
+
+.container-video-suggestions {
+  display: flex;
+  /* border: solid red 3px; */
+  width: 100%;
+  height: 600px;
+}
+
+/* VIDEO  */
+
+.center-container {
+  margin-top: 40px;
+  width: 65%;
+  height: 90%;
+  /* border: solid black 3px; */
+  margin-left: 50px;
+}
+
+/* SUGGESTIONS  */
+
+.sidebar {
+  margin-left: 40px;
+  margin-right: 30px;
+  border: solid 1px;
+  border-color: rgb(180, 180, 180);
+  margin-top: 40px;
+  height: 90%;
+  width: 30%;
+  overflow: scroll;
+  display: flexbox;
+  overflow-x: hidden;
+}
+.suggestion {
+  display: inline-flex;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: rgba(228, 228, 228, 0.3);
+  height: fit-content;
+}
+.video-thumbnail {
+  margin-left: 30px;
+}
+
+.video-title {
+  font-weight: 500;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+/* GENERAL CONTAINER  */
+
+.container-general {
+  /* border: solid black 3px; */
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.video-info {
+  margin-top: -30px;
+  width: 100%;
+  height: 20%;
+  /* border: solid black 3px; */
+  display: block;
+}
+
+.track-name {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.info {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  /* border: black solid 2px; */
+}
+
+.date {
+  margin-top: 15px;
+  text-align: left;
+  /* border: black solid 2px; */
+  width: 50%;
+}
+
+.share {
+  justify-content: flex-end;
+  /* border: red solid 2px; */
+  width: 100%;
+  opacity: 0.6;
+}
+
+.thumbs-up {
+  width: 40px;
+  height: 30px;
+  background-image: url("/images/thumbs-up.svg");
+  background-color: transparent;
+  border-color: transparent;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  justify-items: baseline;
+  opacity: 0.6;
+}
+.thumbs-down {
+  width: 40px;
+  height: 30px;
+  background-image: url("/images/thumbs-down.svg");
+  background-color: transparent;
+  border-color: transparent;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.right-arrow {
+  width: 40px;
+  height: 30px;
+  background-image: url("/images/right-arrow.svg");
+  background-color: transparent;
+  border-color: transparent;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.save {
+  width: 40px;
+  height: 30px;
+  background-image: url("/images/save-icon.png");
+  background-color: transparent;
+  border-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  /* opacity: 0.6; */
+}
+
+.dots {
+  width: 40px;
+  height: 30px;
+  background-image: url("/images/dots.svg");
+  background-color: transparent;
+  border-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  /* opacity: 0.6; */
+}
+
+.description {
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 200px;
+  width: 100%;
+  border: solid black 3px;
 }
