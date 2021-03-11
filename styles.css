@@ -98,7 +98,8 @@ body {
 }
 
 .search-bar .btn-mic {
-  width: 30px;
+  width: 25px;
+  padding: 5px;
   background-color: transparent;
   background-image: url(microphone.svg);
   background-repeat: no-repeat;
