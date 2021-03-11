@@ -293,7 +293,7 @@ body {
 .save {
   width: 40px;
   height: 30px;
-  background-image: url(/save-icon.png);
+  background-image: url(save-icon.png);
   background-color: transparent;
   border-color: transparent;
   background-position: center;
