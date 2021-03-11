@@ -303,7 +303,7 @@ body {
 .dots {
   width: 40px;
   height: 30px;
-  background-image: url("./images/dots.svg");
+  background-image: url(./images/dots.svg);
   background-color: transparent;
   border-color: transparent;
   background-position: center;
