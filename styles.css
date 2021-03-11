@@ -42,7 +42,7 @@ body {
   border-color: transparent;
   width: 25px;
   border-radius: 50%;
-  background-image: url(/images/menu-icon.png);
+  background-image: url(images/menu-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -86,7 +86,7 @@ body {
   width: 70px;
 
   margin-left: -40px;
-  background-image: url(/images/find-icon.svg);
+  background-image: url(images/find-icon.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -100,7 +100,7 @@ body {
 .search-bar .btn-mic {
   width: 30px;
   background-color: transparent;
-  background-image: url(/images/microphone.svg);
+  background-image: url(images/microphone.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -117,7 +117,7 @@ body {
 }
 
 .camera {
-  background-image: url(/images/video-camera.svg);
+  background-image: url(images/video-camera.svg);
   width: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -127,7 +127,7 @@ body {
 }
 
 .dots {
-  background-image: url(/images/dots-menu.svg);
+  background-image: url(images/dots-menu.svg);
   width: 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -137,7 +137,7 @@ body {
 }
 
 .notification {
-  background-image: url(/images/notification.svg);
+  background-image: url(images/notification.svg);
   width: 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -255,7 +255,7 @@ body {
 .thumbs-up {
   width: 40px;
   height: 30px;
-  background-image: url("/images/thumbs-up.svg");
+  background-image: url(images/thumbs-up.svg);
   background-color: transparent;
   border-color: transparent;
   background-position-y: bottom;
@@ -267,7 +267,7 @@ body {
 .thumbs-down {
   width: 40px;
   height: 30px;
-  background-image: url("/images/thumbs-down.svg");
+  background-image: url(images/thumbs-down.svg);
   background-color: transparent;
   border-color: transparent;
   background-position-y: bottom;
@@ -279,7 +279,7 @@ body {
 .right-arrow {
   width: 40px;
   height: 30px;
-  background-image: url("/images/right-arrow.svg");
+  background-image: url(images/right-arrow.svg);
   background-color: transparent;
   border-color: transparent;
   background-position-y: bottom;
@@ -291,7 +291,7 @@ body {
 .save {
   width: 40px;
   height: 30px;
-  background-image: url("./images/save-icon.png");
+  background-image: url(images/save-icon.png);
   background-color: transparent;
   border-color: transparent;
   background-position: center;
