@@ -194,12 +194,6 @@ body {
   overflow-x: hidden;
 }
 
-.no-scroll {
-}
-
-.complete {
-}
-
 .sidebar2 {
   margin-left: 40px;
   margin-right: 30px;
@@ -232,8 +226,8 @@ body {
 }
 .video-thumbnail img {
   margin-left: 30px;
-  width: 100px;
-  height: 60px;
+  width: 150px;
+  height: 90px;
 }
 
 .video-title {
@@ -241,6 +235,14 @@ body {
   font-family: sans-serif;
   padding-left: 10px;
   padding-right: 50px;
+}
+
+.author,
+.views,
+.old {
+  padding-left: 10px;
+  width: 100px;
+  font-size: 14px;
 }
 
 /* GENERAL CONTAINER  */
