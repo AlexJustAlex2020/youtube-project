@@ -184,6 +184,8 @@ body {
   margin-right: 30px;
   border: solid 1px;
   border-color: rgb(180, 180, 180);
+  background-color: rgba(228, 228, 228, 0.3);
+
   margin-top: 40px;
   height: 90%;
   width: 30%;
@@ -191,11 +193,41 @@ body {
   display: flexbox;
   overflow-x: hidden;
 }
+
+.no-scroll {
+}
+
+.complete {
+}
+
+.sidebar2 {
+  margin-left: 40px;
+  margin-right: 30px;
+  border: solid 1px;
+  border-color: rgb(180, 180, 180);
+  background-color: rgba(228, 228, 228, 0.3);
+  margin-top: 40px;
+  height: fit-content;
+  width: 30%;
+  overflow: scroll;
+  display: flexbox;
+  overflow-x: hidden;
+  overflow: visible;
+  overflow-y: hidden;
+}
+
+.sidebar a {
+  color: black;
+}
+
+.sidebar2 a {
+  color: black;
+}
 .suggestion {
   display: inline-flex;
   margin-top: 10px;
   padding-top: 10px;
-  background-color: rgba(228, 228, 228, 0.3);
+  /* background-color: rgba(228, 228, 228, 0.3); */
   height: fit-content;
 }
 .video-thumbnail img {
